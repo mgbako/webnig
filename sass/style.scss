@@ -1,0 +1,123 @@
+body{
+	background: #1f79ab;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navbar{
+	display: flex;
+	padding: 20px;
+	color: #fff;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+
+.depth-1{
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.depth-2 {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.container{
+	background: #fff;
+	box-shadow: 0 0 2px  rgba(0,0,0,0.2);
+}
+
+aside{
+	width: 40%;
+
+	.header {
+	    color: #143779;
+	    padding: 20px 0 0;
+	    text-align: center;
+	    font-size: 40px;
+	    h2 {
+			    margin: 0;
+			    font-weight: lighter;
+			    span{
+			    	font-weight: bold;
+			    }
+			}
+	}
+	p.sub-title {
+    background: #143779;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    text-transform: capitalize;
+	}
+}
+.btn{
+	border: 1px solid;
+	color: #fff;
+	padding: 5px 15px;
+	font-size: 12px;
+
+	&.btn-primary {
+    background: #0787e2;
+    border-color: #1f79ab;
+    border-radius: 4px;
+  }
+}
+
+.fb-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0px 30px 20px;
+    
+    .btn-fb{
+    	background: #4267b2;
+    	position: relative;
+    	padding-left: 20px;
+
+    	.fa-facebook {
+			    margin-right: 5px;
+			    background: #3a5b9d;
+			    position: absolute;
+			    top: 0;
+			    bottom: 0;
+			    left: 0;
+			    display: flex;
+			    justify-content: flex-end;
+			    align-items: center;
+			    width: 15px;
+			    padding-right: 2px;
+			}
+    }
+}
+form{
+	padding: 0 30px;
+
+	.form-group{
+		margin: 10px;
+
+		label {
+		    text-align: right;
+		    display: inline-block;
+		    width: 35%;
+		}
+		.form-control{
+			float: right;
+			width: 60%;
+		}
+	}
+}
+main {
+    width: 60%;
+    float: right;
+}
