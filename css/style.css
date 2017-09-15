@@ -29,7 +29,9 @@ body {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
 
 aside {
-  width: 40%; }
+  width: 40%;
+  float: left;
+  background: #fff; }
   aside .header {
     color: #143779;
     padding: 20px 0 0;
@@ -58,6 +60,14 @@ aside {
     border-color: #1f79ab;
     border-radius: 4px; }
 
+.tw {
+  background: #1da1f2;
+  border-color: #1da1f2; }
+
+.fb {
+  background: #4267b2;
+  border-color: #4267b2; }
+
 .fb-login {
   display: flex;
   justify-content: space-between;
@@ -67,7 +77,8 @@ aside {
   .fb-login .btn-fb {
     background: #4267b2;
     position: relative;
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin-right: 10px; }
     .fb-login .btn-fb .fa-facebook {
       margin-right: 5px;
       background: #3a5b9d;
@@ -82,7 +93,8 @@ aside {
       padding-right: 2px; }
 
 form {
-  padding: 0 30px; }
+  padding: 0 30px;
+  padding-bottom: 30px; }
   form .form-group {
     margin: 10px; }
     form .form-group label {
@@ -91,10 +103,84 @@ form {
       width: 35%; }
     form .form-group .form-control {
       float: right;
-      width: 60%; }
+      width: 60%;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc; }
+    form .form-group small.name {
+      display: inline-block;
+      margin-left: 156px; }
+
+span.gender-wrapper {
+  display: inline-block;
+  margin-left: 12px;
+  width: 61%; }
+  span.gender-wrapper select {
+    width: 38%; }
+  span.gender-wrapper #male {
+    margin-right: 4px; }
+  span.gender-wrapper #female {
+    margin-left: 5px; }
+
+.email small {
+  font-size: 10px;
+  margin-left: 159px;
+  display: inline-block; }
+
+.password small {
+  font-size: 10px;
+  margin-left: 159px;
+  display: inline-block; }
+
+.btn-submit {
+  position: relative;
+  padding-left: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #439d17;
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+  margin: 0 auto; }
+  .btn-submit .fa-arrow-circle-right {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background: #1495e9;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    line-height: 23px; }
 
 main {
   width: 60%;
-  float: right; }
+  float: right;
+  background: #fff;
+  height: 645px; }
+  main .banner {
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  main .content {
+    padding: 0 0px 0 50px; }
+    main .content h2 {
+      font-size: 40px;
+      margin: 20px 0;
+      color: #1f79ab; }
+    main .content ul {
+      padding-left: 20px;
+      list-style: none; }
+      main .content ul li:before {
+        font-family: 'FontAwesome';
+        content: '\f0da';
+        margin: 0 5px 0 -15px; }
 
 /*# sourceMappingURL=style.css.map */

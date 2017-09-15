@@ -18,8 +18,8 @@
 				</div>
 				<div class="nav-right pull-right">
 					<button class="btn btn-primary">MEMBER LOGIN</button>
-					<button class="btn btn-fb"><i class="fa fa-facebook"></i></button>
-					<button class="btn btn-tw"><i class="fa fa-twitter"></i></button>
+					<button class="btn btn-fb fb"><i class="fa fa-facebook"></i></button>
+					<button class="btn btn-tw tw"><i class="fa fa-twitter"></i></button>
 				</div>
 			</div>
 
@@ -37,19 +37,21 @@
 							<div class="form-group">
 								<label for="">First Name:</label>
 								<input type="text" class="form-control">
-								<small>First name only please</small>
+								<small class="name"><i>First name only please</i></small>
 							</div>
 							<div class="form-group">
 								<label for="">I'm a:</label>
-								<select name="" id="">
-									<option value="">Man</option>
-									<option value="">Woman</option>
-								</select>
-								<small>seeking</small>
-								<select name="" id="">
-									<option value="">Man</option>
-									<option value="">Woman</option>
-								</select>
+								<span class="gender-wrapper">
+									<select name="" id="male">
+										<option value="">Man</option>
+										<option value="">Woman</option>
+									</select>
+									<small>seeking</small>
+									<select name="" id="female">
+										<option value="">Man</option>
+										<option value="">Woman</option>
+									</select>
+								</span>
 							</div>
 							<div class="form-group">
 								<label for="">Zip Code:</label>
@@ -62,7 +64,7 @@
 									<option value="">Nigeria</option>
 								</select>
 							</div>
-							<div class="form-group">
+							<div class="form-group email">
 								<label for="">Email:</label>
 								<input type="email" class="form-control">
 								<small>Note: Your email is used to log back in</small>
@@ -71,22 +73,30 @@
 								<label for="">Confirm Email:</label>
 								<input type="email" class="form-control">
 							</div>
-							<div class="form-group">
+							<div class="form-group password">
 								<label for="">Password:</label>
 								<input type="password" class="form-control">
 								<small>Must be at least 5 characters</small>
 							</div>
 							<div class="form-group">
 								<label for="">How did you hear about us?</label>
-								<input type="password" class="form-control">
-								<small>Must be at least 5 characters</small>
+								<select name="" id="" class="form-control">
+									<option value="">Please select...</option>
+									<option value="">by mail</option>
+								</select>
 							</div>
-							<button class="btn btn-submit">i.fa.fa-Find My Matches</button>
+							<button class="btn btn-submit"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Find My Matches</button>
 						</form>
 					</aside>
 					<main>
-						<div class="row">
-							<img src="img/banner.png" alt="">
+						<div class="row banner" style="background-image: url(img/banner.png);">
+							<!-- <img src="img/banner.png" alt=""> -->
+						</div>
+						<div class="content">
+							<h2>Date Smarter, Not Harder</h2>
+							<ul>
+								<li>Take our Relationship Questionnaire to define what you want</li>
+							</ul>
 						</div>
 					</main>
 				</div>
