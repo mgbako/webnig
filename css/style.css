@@ -1,5 +1,6 @@
 body {
-  background: #1f79ab; }
+  background: #1f79ab;
+  display: none; }
 
 .wrapper {
   width: 90%;
@@ -182,5 +183,10 @@ main {
         font-family: 'FontAwesome';
         content: '\f0da';
         margin: 0 5px 0 -15px; }
+
+.btn {
+  cursor: pointer; }
+  .btn:hover {
+    transform: scale(1.1); }
 
 /*# sourceMappingURL=style.css.map */

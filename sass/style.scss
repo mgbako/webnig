@@ -1,5 +1,6 @@
 body{
 	background: #1f79ab;
+	display: none;
 }
 
 .wrapper{
@@ -224,4 +225,12 @@ main {
 				}
 			}
 		}
+}
+
+.btn{
+	cursor: pointer;
+
+	&:hover{
+		transform: scale(1.1);
+	}
 }
